@@ -37,7 +37,7 @@ function ListItem(todo, onChange) {
     // Create a checkbox and label for the todo item
     container.innerHTML = `
         <label>
-            <input type="checkbox" ${todo.completed ? "checked" : ""}/>
+            <input id = "checkbox" type="checkbox" ${todo.completed ? "checked" : ""}/>
             ${todo.label}
         </label>
     `;

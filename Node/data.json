@@ -10,5 +10,9 @@
   {
     "label": "Learn CSS",
     "completed": false
+  },
+  {
+    "label": "Learn Html",
+    "completed": false
   }
 ]
